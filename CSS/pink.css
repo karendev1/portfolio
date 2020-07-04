@@ -1,0 +1,18 @@
+.aside .logo a::before{
+    border-top: 4px solid #ec1839;
+    border-left: 4px solid #ec1839;
+}
+.aside .logo a:after{
+    border-bottom: 4px solid #ec1839;
+    border-right: 4px solid #ec1839;
+}
+.about .about-content .about-text h3,
+li a:hover, li a.active  {
+    color: #ec1839
+}
+.active {
+    color: #ec1839;
+}
+.portfolio .portfolio-filter button.active {
+    border-color: #ec1839;
+}
