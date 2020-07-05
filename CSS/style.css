@@ -10,10 +10,10 @@ font-weight: 400px;
 color: #302e4d;
 background-color: #f2f2fc;
 }
-/* AQUI FIZ O "HOME"*/
+/*"HOME"*/
 *{
   margin: 0;
-  padding:0;
+  padding: 0;
   outline: none;
   text-decoration: none;
   box-sizing: border-box;  
