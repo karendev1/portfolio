@@ -10,6 +10,25 @@ font-weight: 400px;
 color: #302e4d;
 background-color: #f2f2fc;
 }
+.aside .nav-toggler{
+    height: 40px;
+    width: 45px;
+    border: 1px solid #d4d4e3;
+    cursor: pointer;
+    position: fixed;
+    left: 300px;
+    top: 30px;
+    z-index: 501;
+  border-radius: 5px;
+  background-color: #fdf9ff;
+  display: flex;
+  display: none;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+}
 /*"HOME"*/
 *{
   margin: 0;
@@ -132,6 +151,10 @@ li a:hover {
     display: none!important;
 }
 /* AQUI FIZ O "SOBRE" */
+
+
+
+
 .section .container {
     padding-top: 60px;
     padding-bottom: 70px;
@@ -579,12 +602,10 @@ color: #504e70;
 /* RESPONSIVO - INICIO */
 
 @media (max-width:1199px) {
-.aside {
-    left: -270px;
-}
-.main-content {
-    padding-left: 0;
-}
+    .aside .nav-toggler {
+        display: flex;
+
+    }
 .about .about-content .personal-info .info-item p span {
     display:block;
     margin-left: 0;
@@ -605,6 +626,7 @@ color: #504e70;
     .contact .contact-form .col-6 {
         flex: 0 0 100%;
         max-width: 100%;
+        
     }
 }
 @media (max-width:991px) {
